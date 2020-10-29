@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login-style.css">
+        <script type="text/javascript" src="muJS.js"></script>
+        </head>
+        <body>
+            <nav>
+                <div class="container">
+                    <ul class="nav-part1">
+                      <li> <a href="MerrylandUniversity.html">Home</a></li>
+                      <li> <a href="MerrylandUniversity-programs.html" id="programs-nav">Programs</a></li>
+                      <li> <a href="#">About</a></li>
+                    </ul>
+                    <figure class="nav-logo">
+                      <img src="css/images/footer-logo-1.png" alt="">
+                    </figure>
+                    <ul class="nav-part2">
+                      <li id="login"> <a href="#">Login</a> </li>
+                      <li> <a href="Register.html">Register</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="formLogin">
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="text" id="idName" minlength="3" autocomplete="off" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="txt_field">
+                        <input type="password" id="passID" minlength="5" autocomplete="off" required>
+                        <span></span>
+                        <label>Password</label>
+                    </div>
+                    <div class="pass">Forgot Password?</div>
+                    <a href="#">
+                        <input type="button" value="Login" id="submitBtn" onclick="myFunction()"/>
+                    </a>
+                    <div class="signup_link">
+                        Not a member? <a href="Register.html">Signup</a>
+                    </div>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>

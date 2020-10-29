@@ -1,0 +1,486 @@
+body{
+  margin: 0;
+  padding: 0;
+    background-color: #F2E2D2;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+header{
+  margin-top: -31px;
+  background-color: #080708;
+  height: 600px;
+}
+.space{
+  margin: 60px auto;
+  width: 60%;
+  border: solid black;
+  color: black;
+}
+h1{
+  font-size: 35pt;
+  text-align: center;
+  color: white;
+  padding-top: 240px;
+}
+nav{
+  background-color: #F1D302;
+  margin-top: 0px;
+}
+nav ul{
+  list-style: none;
+  display: inline-block;
+}
+.nav-part1{
+  text-align: left;
+  width: 30%;
+}
+.nav-part2{
+  text-align: center;
+  width: 18%;
+}
+.nav-logo{
+  display: inline-block;
+}
+.nav-part1 li{
+  padding: 10px;
+  display: inline-block;
+
+}
+#programs-nav{
+    color:white;
+    background-color: black;
+    padding:8px;
+    border-radius: 8px;
+}
+
+.nav-part2 li{
+  padding: 15px;
+  display: inline-block;
+}
+.nav-part1 a{
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 2s;
+  color: black;
+}
+.nav-part1 a:hover{
+  color:white;
+  background-color: black;
+  border-radius: 8px;
+}
+.nav-part2 a{
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 2s;
+  color: black;
+}
+.nav-part2 a:hover{
+  color:white;
+  background-color: black;
+  border-radius: 8px;
+}
+main{
+  height: 7500px;
+  margin: 60px;
+}
+.sec1{
+  height: 500px;
+
+}
+.card{
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  transition: width 2s, p 2s;
+  margin: 30px 45px 1px 45px;
+  background-color: white;
+  width :41%;
+  background-color: #A5CCD1;
+  padding:  auto;
+  transition-timing-function: linear;
+}
+.card p{
+  display: none;
+  color: white;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 42%;
+}
+.card:hover p{
+  display: block;
+}
+h4{
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+}
+h4 a{
+  text-decoration: none;
+  color: white;
+}
+p{
+  text-align: center;
+  font-size: 17pt;
+  color: black;
+}
+.sec2{
+  height: 1585px;
+  width: 100%;
+
+}
+.sec2 .photo{
+  height: 700px;
+
+  background-image: url("images/main-prog-image-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec2 .photo p{
+  font-size: 25pt;
+  text-align: center;
+  padding: auto;
+  padding-top: 320px;
+
+  color: white;
+  opacity: 0.8
+}
+.sec2 figure img{
+  width: 100%;
+
+}
+.sec2 figure{
+  width: 30%;
+  padding-top: 20px;
+  display: inline-block;
+}
+.sec2 figcaption{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: -4px;
+}
+.content1{
+  background-color: #A5CCD1;
+  height: 845px;
+}
+.content2{
+  background-color: #A5CCD1;
+  height: 845px;
+}
+.content3{
+  background-color: #A5CCD1;
+  height: 845px;
+}
+.content4{
+  background-color: #A5CCD1;
+  height: 845px;
+}
+.content1 h3{
+  text-align: center;
+  margin: auto;
+  font-size: 35pt;
+  background: #F1D302;
+  color: white;
+}
+.content2 h3{
+  text-align: center;
+  margin: auto;
+  font-size: 35pt;
+  background: #F1D302;
+  color: white;
+}
+.content3 h3{
+  text-align: center;
+  margin: auto;
+  font-size: 35pt;
+  background: #F1D302;
+  color: white;
+}
+.content4 h3{
+  text-align: center;
+  margin: auto;
+  font-size: 35pt;
+  background: #F1D302;
+  color: white;
+}
+.about{
+  margin: auto;
+  width:60%;
+
+  display: inline-block;
+}
+table {
+  background-color: #F1D302;
+  font-size: 15pt;
+  border-collapse: collapse;
+  width: 100%;
+  transition: 1s;
+  color: white;
+  height:400px;
+}
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr{
+  transition: 1s;
+}
+tr:hover{
+  color: black;
+  opacity: 0.5
+}
+.courses{
+  width: 100%;
+  height: 100%;
+}
+.courses p{
+  padding: 25px;
+  text-align: left;
+  color: white;
+  height: 100%;
+}
+.enroll{
+  background-color: white;
+  text-align: center;
+  transition: 1s;
+}
+.enroll a{
+  text-decoration: none;
+  color: black;
+  font-size: 25pt;
+
+}
+.enroll:hover{
+  background-color: black;
+}
+.enroll:hover a{
+  color: white;;
+}
+.sec3{
+  height: 1585px;
+  width: 100%;
+
+}
+.sec3 .photo{
+  height: 700px;
+
+  background-image: url("images/main-prog-image-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec3 .photo p{
+  font-size: 25pt;
+  text-align: center;
+  padding: auto;
+  padding-top: 320px;
+
+  color: white;
+  opacity: 0.8
+}
+.sec3 figure img{
+  width: 100%;
+
+}
+.sec3 figure{
+  width: 30%;
+
+  padding-top: 20px;
+  display: inline-block;
+}
+.sec3 figcaption{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: -4px;
+}
+.sec4{
+  height: 1585px;
+  width: 100%;
+
+}
+.sec4 .photo{
+  height: 700px;
+
+  background-image: url("images/main-prog-image-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec4 .photo p{
+  font-size: 25pt;
+  text-align: center;
+  padding: auto;
+  padding-top: 350px;
+
+  color: white;
+  opacity: 0.8
+}
+.sec4 figure img{
+  width: 100%;
+
+}
+.sec4 figure{
+  width: 30%;
+
+  padding-top: 20px;
+  display: inline-block;
+}
+.sec4 figcaption{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: -4px;
+}
+.sec5{
+  height: 1585px;
+  width: 100%;
+
+}
+.sec5 .photo{
+  height: 700px;
+
+  background-image: url("images/main-prog-image-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec5 .photo p{
+  font-size: 25pt;
+  text-align: center;
+  padding: auto;
+  padding-top: 355px;
+
+  color: white;
+  opacity: 0.8
+}
+.sec5 figure img{
+  width: 100%;
+
+}
+.sec5 figure{
+  width: 30%;
+
+  padding-top: 20px;
+  display: inline-block;
+}
+.sec5 figcaption{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: -4px;
+}
+footer{
+  background-color: #F1D302;
+  height: 500px;
+}
+.part1{
+  height: 92%;
+}
+.part1 div{
+  display: inline-block;
+  width: 33.1%;
+}
+.part1 img{
+  width:100%;
+  height: 100%;
+}
+.LinksPart1{
+  float: left;
+}
+.LinksPart1 ul{
+  text-align: center;
+  list-style: none;
+}
+.LinksPart1 li{
+  padding-top: 50px;
+}
+.LinksPart1 li a{
+  padding: 5px;
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+}
+.LinksPart1 a:hover{
+  background-color: rgba(196,2412,33);
+  border-radius: 8px;
+}
+.LinksPart2{
+  float: right;
+}
+.LinksPart2 ul{
+  text-align: center;
+  list-style: none;
+}
+.LinksPart2 li{
+  text-decoration: none;
+  padding-top: 50px;
+}
+.LinksPart2 li a{
+  padding: 8px;
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+}
+.LinksPart2 a:hover{
+  background-color: rgba(196,2412,33);
+  border-radius: 5px;
+}
+.part1 .subscription{
+  width: 100%;
+}
+.part2{
+  padding-bottom:0;
+  margin-bottom:0;
+  background-color: #020100;
+  height:11%;
+}
+.part2 ul{
+  list-style: none;
+  text-align: center;
+}
+.part2 li{
+  display: inline-block;
+  padding: 0px 60px;
+  margin-top: 8px;
+}
+.fa{
+  padding: 10px;
+  padding-bottom: 8px;
+   font-size: 18px;
+   width: 20px;
+  text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+}
+.UniLogo img{
+  transition: width 2s;
+}
+.UniLogo img:hover{
+  width:500px;
+}
+.fa-facebook{
+  background: #3B5998;
+ color: white;
+ margin-right: 10px;
+}
+.fa-twitter{
+ background: #55ACEE;
+  color: white;
+  margin-right: 10px;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
