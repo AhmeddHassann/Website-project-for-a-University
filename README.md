@@ -1,0 +1,1 @@
+This repository contains the Merryland College Website, developed as part of the ASU Summer Training Program for first-year students. The website showcases the basic front-end development skills learned during the training, utilizing HTML, CSS, and JavaScript.
